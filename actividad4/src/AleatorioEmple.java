@@ -40,8 +40,10 @@ public class AleatorioEmple {
 			} 
 			file.close(); 
 			System.out.println(" ------------------------------------------");
-		} else 
+		} else {
 			System.out.println(" ---------FICHERO VACÍO --------------------");
+		}
+		System.out.println("Texto en el metodo leer");
 	}// fin verporconsola
 
 	public static void crear() throws IOException {
